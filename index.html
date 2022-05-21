@@ -12,12 +12,35 @@
   
   <h1>JS DOM Manipulation</h1>
 
-  <h2>Boxes <button id="btn-add-box">+</button></h2>
+  <h2>
+    Boxes 
+    <button id="btn-add-box">+</button>
+    <button id="btn-delete-all-boxes">delete all</button>
+  </h2>
 
   <div class="box-container">
-    <div class="box"></div>
+    <div class="box">
+      <button class="btn-delete">x</button>
+    </div>
+    <div class="box">
+      <button class="btn-delete">x</button>
+    </div>
   </div>
 
+
+  <h2>Todo List</h2>
+
+  <div>
+    <input type="text" name="task" />
+    <button id="btn-add-task">add task</button>
+  </div>
+
+  <ul class="task-list">
+    <li>Bajar a Nala</li>
+    <li>Hacer la compra</li>
+  </ul>
+
   <script src="/assets/js/boxes.js"></script>
+  <script src="/assets/js/tasks.js"></script>
 </body>
 </html>
